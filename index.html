@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clínica Veterinaria</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <header>
+    <h1>Clínica Veterinaria</h1>
+    <p>Sistema de gestión de mascotas, propietarios y citas</p>
+  </header>
+  <main>
+    <section>
+      <h2>Registrar mascota</h2>
+      <form>
+        <label>Nombre <input type="text" name="nombre" required></label>
+        <label>Especie
+          <select name="especie">
+            <option>Perro</option><option>Gato</option><option>Otro</option>
+          </select>
+        </label>
+        <label>Propietario <input type="text" name="propietario" required></label>
+        <button type="submit">Guardar</button>
+      </form>
+    </section>
+  </main>
+  <footer>Autor: Manuel Passo — SENA ficha 3186600</footer>
+</body>
+</html>
